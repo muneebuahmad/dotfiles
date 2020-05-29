@@ -60,6 +60,12 @@ Install homebrew (it will prompt to also install xcode files): **/bin/bash -c ‚Ä
 13. **brew cask install spotify**
 14. **brew cask install slack**
 15. **brew cask install stretchly**
+16. **brew cask install bettertouchtool**
+    1.  Download the license from your gmail and import it into btt
+    2.  Download the latest stable release of GoldenChaos: https://community.folivora.ai/t/goldenchaos-btt-the-complete-touch-bar-ui-replacement/1281
+    3.  Press (command-,) to open preferences
+        1.  Basic -> Launch BetterTouchTool on startup
+    4.  Download the Muneeb.bttpreset in the btt-settings folder of this repo and import it. This will give the additional keyboard shortcuts for resizing and moving windows.
 
 ## Install Node
 
@@ -68,15 +74,16 @@ Install homebrew (it will prompt to also install xcode files): **/bin/bash -c ‚Ä
 3. Restart the terminal and run: **nvm use node**
 4. Confirm you're using the latest node and nvm by running **node -v** and **npm -v**
 
-## Install BetterTouchTool
-TO DO
-
 ## Install VS Code extensions
-TO DO
+1. Download the "Anonymous Pro" font and install it: https://www.marksimonson.com/fonts/view/anonymous-pro
+2. Install the "Settings Sync" extension in VS Code by Shan Khan (https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync#:~:text=Login%20GitHub%20on%20Browser%20and,Skip%20to%20create%20new%20Gist.)
+3. Log in to Github through the extension
+4. Use (shift-option-d) to download the latest settings (this includes all extensions, keybinds and themes). Use (shift-option-u) to upload any changes to settings later on.
 
 ## Extra Settings
 
-1. Create a SSH key to use
+1. Install lite-server and eslint globally: **npm install -g lite-server eslint**
+2. Create a SSH key to use
    1. **ssh-keygen -t rsa -b 4096 -C ‚Äústudent@example.com‚Äù**
    2. **ssh-add ~/.ssh/id_rsa**
-2. To keep git from asking you for your credentials everytime you want to perform an action, run **git config --global credential.helper store**
+3. To keep git from asking you for your credentials everytime you want to perform an action, run **git config --global credential.helper store**
