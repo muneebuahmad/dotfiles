@@ -68,6 +68,8 @@ Install homebrew (it will prompt to also install xcode files): **/bin/bash -c â€
     3.  Press (command-,) to open preferences
         1.  Basic -> Launch BetterTouchTool on startup
     4.  Download the Muneeb.bttpreset in the btt-settings folder of this repo and import it. This will give the additional keyboard shortcuts for resizing and moving windows.
+17. **brew cask install protonvpn**
+18. **brew cask install valentina-studio**
 
 ---
 
