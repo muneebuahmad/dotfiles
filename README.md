@@ -1,7 +1,9 @@
-# List of steps to set up a new Mac
+# List of Steps to Set Up a New Mac
 *All terminal commands are bolded or in code blocks.*
 
-## Set up system preferences
+---
+
+## Set Up System Preferences
 1. General
    1. Set Dark mode
    2. Enable Night Shift
@@ -28,11 +30,11 @@
    2. Turn FileVault On
    3. Turn Firewall On
 
-## Install homebrew and formulas
+---
+
+## Install Homebrew and Formulas
 
 Install homebrew (it will prompt to also install xcode files): **/bin/bash -c ‚Äú$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"**
-
----
 
 1. **brew install git**
 2. **brew install zsh**
@@ -67,6 +69,8 @@ Install homebrew (it will prompt to also install xcode files): **/bin/bash -c ‚Ä
         1.  Basic -> Launch BetterTouchTool on startup
     4.  Download the Muneeb.bttpreset in the btt-settings folder of this repo and import it. This will give the additional keyboard shortcuts for resizing and moving windows.
 
+---
+
 ## Install Node
 
 1. Install nvm (node version manager), so we can switch between node versions when needed: **curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash**
@@ -74,16 +78,31 @@ Install homebrew (it will prompt to also install xcode files): **/bin/bash -c ‚Ä
 3. Restart the terminal and run: **nvm use node**
 4. Confirm you're using the latest node and nvm by running **node -v** and **npm -v**
 
-## Install VS Code extensions
+---
+
+## Install VS Code Extensions
 1. Download the "Anonymous Pro" font and install it: https://www.marksimonson.com/fonts/view/anonymous-pro
 2. Install the "Settings Sync" extension in VS Code by Shan Khan (https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync#:~:text=Login%20GitHub%20on%20Browser%20and,Skip%20to%20create%20new%20Gist.)
 3. Log in to Github through the extension
 4. Use (shift-option-d) to download the latest settings (this includes all extensions, keybinds and themes). Use (shift-option-u) to upload any changes to settings later on.
 
+---
+
 ## Extra Settings
 
-1. Install lite-server and eslint globally: **npm install -g lite-server eslint**
-2. Create a SSH key to use
+1. Copy all the dotfiles into ~/ (prepending . to their names so they stay hidden). See the README in the dotfiles folder to learn what they are each for.
+2. Install lite-server and eslint globally: **npm install -g lite-server eslint**
+3. Create a SSH key to use
    1. **ssh-keygen -t rsa -b 4096 -C ‚Äústudent@example.com‚Äù**
    2. **ssh-add ~/.ssh/id_rsa**
-3. To keep git from asking you for your credentials everytime you want to perform an action, run **git config --global credential.helper store**
+4. To keep git from asking you for your credentials everytime you want to perform an action, run **git config --global credential.helper store**
+5. Create a new folder in ~/ for dev stuff: **mkdir ~/dev**
+
+---
+
+## Resources Used
+
+* [https://medium.com/better-programming/setting-up-your-mac-for-web-development-in-2020-659f5588b883](https://medium.com/better-programming/setting-up-your-mac-for-web-development-in-2020-659f5588b883)
+* [https://dev.to/v3frankie/setup-your-mac-for-development-2020-edition-1c8a](https://dev.to/v3frankie/setup-your-mac-for-development-2020-edition-1c8a)
+* [https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/](https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/)
+* [https://www.youtube.com/watch?v=tMNOpaQrfAE](https://www.youtube.com/watch?v=tMNOpaQrfAE)
