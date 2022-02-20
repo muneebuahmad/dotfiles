@@ -58,7 +58,9 @@ Install homebrew (it will prompt to also install xcode files): `/bin/bash -c “
 11. `brew cask install spotify`
 12. `brew cask install slack`
 13. `brew cask install stretchly`
-14. `brew cask install bettertouchtool`
+14. `brew cask install obsidian`
+    1.  Get the obsidian git plugin in Obsidian, then clone the vaults repository.
+15. `brew cask install bettertouchtool`
     1.  Download the license from your gmail and import it into btt
     2.  Download the latest stable release of GoldenChaos (https://community.folivora.ai/t/goldenchaos-btt-the-complete-touch-bar-ui-replacement/1281)
     3.  Press (command-,) to open preferences
